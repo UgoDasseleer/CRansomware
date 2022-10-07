@@ -10,12 +10,18 @@ void handle_error()
 	exit(0);
 }
 
-int main(void)
+int main(int argc, char * argv[])
 {
-	int sockid;
-	int server_port = 8888;
-	char *server_ip = "192.168.1.3";
+	if(argc != 3)
+        {
+		printf("%s %s %s", "usage : ", argv[0], "<ip> <port> \n");
+                handle_error();
+        }
 
+	int sockid;
+	int server_port = atoi(argv[2]);
+	char *server_ip = argv[1];
+	if(argc != 3)
 	sockid = socket(AF_INET,SOCK_STREAM,0);
 
 	struct sockaddr_in server_addr, client_addr;
