@@ -1,7 +1,7 @@
 # CRansomware
 A little Ransomware made in C for a school project.
 
-Please do not use it as a virus. It is not made for this purpose. The aim of this project is studying how sockets and crypto work with C.
+Please do not use it as a virus. It is not made for this purpose. The aim of this project is studying how sockets and crypto work with C (memory aswell).
 
 # How to Use
 
