@@ -13,6 +13,12 @@ On the Client
 ```
 gcc -o ransom ransom.c ransomlib.c -lcrypto
 ```
+
+if the compilation fails, you can try to use this command to fix it
+```
+sudo apt install libssl-dev
+```
+
 On the remote server
 
 You compilate the TCP.C (It will allow you to get the key and IV)
