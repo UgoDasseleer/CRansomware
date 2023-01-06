@@ -50,7 +50,7 @@ To decrypt
 
 # Sendback
 
-The send back is used to send back the key and the IV to the client (that will have the TCP scipt compilated on it).
+The send back is used to send back the key and the IV to the client (that will have the TCP script compilated on it).
 
 Compilate it 
 ```
@@ -60,8 +60,8 @@ Run it.
 ```
 ./sendback <ip> <port> <key> <IV>
 ```
-# Sendback
+# Credits
 
-Ugo Dasseleer
+Ugo D.
 
-Julien Detré
+Julien D.
